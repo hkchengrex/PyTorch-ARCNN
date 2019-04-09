@@ -18,7 +18,7 @@ If you encountered out of memory, please lower the batch size. If the input imag
 GPU will be used if one is present.
 
 ## Performance
-Speedwise, tt can process a 224*224 image within 5ms with a GTX 1080Ti.
+Speedwise, tt can process a 224*224 image within 5ms with a GTX 1080Ti compared to around 3s/image in the matlab version.
 
 In terms of quality, it has almost the exact same output as the author's Matlab testing code. You can use the script in the `compare/` folder to verify this. Maximum absolute error is `1` and mean absolute error is `2e-3`.
 
