@@ -4,6 +4,8 @@ This a unofficial *testing only* script written for ARCNN. It loads pretrained w
 For details, please refer to the paper author's website: [Deep Convolution Networks for Compression
 Artifacts Reduction](http://mmlab.ie.cuhk.edu.hk/projects/ARCNN.html).
 
+This can act as a pre-processing step to other image processing algorithm like the [ESRGAN](https://github.com/xinntao/ESRGAN) which [suffers](https://github.com/xinntao/ESRGAN/issues/5) from jpeg artifact.
+
 ## Usage
 `
 python run.py --dir [Folder for input images] --output [Output directory] --batch_size [Batch size] --quality [Quality of JPEG images used to train: 10/20/30/40]
